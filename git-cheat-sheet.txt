@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> epictestbranch
 git init - Creates hidden fold to store history of repository setup in file for history purposes
 
 git add - Tells git to track file so that it can be managed
@@ -10,6 +13,7 @@ git commit -am "" - Committing staged modifcitations and saving the changes to G
 git log - Gives full commit history
 
 git show - Retrieves all modifications applied at each commit requested (git show aa088)
+<<<<<<< HEAD
 =======
 git init - Creates hidden fold to store history of repository setup in file 	   for history purposes
 
@@ -23,6 +27,8 @@ git log - Gives full commit history
 
 git show - Retrieves all modifications applied at each commit requested 	   (git show aa088)
 >>>>>>> epictestbranch
+=======
+>>>>>>> epictestbranch
 
 HEAD - Points to most recent commit
 
@@ -31,10 +37,14 @@ master - Default branch
 ~1 - Shows parent of commit (commit made directly before)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> epictestbranch
 git checkout - Allows us to checkout previous versions by overwriting files with previous versions in history managed by git
 
 git reset - Changes where HEAD and current branch name refer to effectively reseting to older commit without deleting it by removing it from gits history
 
+<<<<<<< HEAD
 git branch -branchname - Creates a new branch or seperate version of git, allows for seperate parts of development to be done simultaneously without clogging log
 =======
 git checkout - Allows us to checkout previous versions by overwriting files 	       with previous versions in history managed by git
@@ -42,4 +52,7 @@ git checkout - Allows us to checkout previous versions by overwriting files 	   
 git reset - Changes where HEAD and current branch name refer to effectively 	    reseting to older commit without deleting it by removing it 	    from gits history
 
 git branch -branchname - Creates a new branch or seperate version of git, 			allows for seperate parts of development to be done 			simultaneously without clogging log
+>>>>>>> epictestbranch
+=======
+git branch -branchname - Creates a new branch or seperate version of git, allows for seperate parts of development to be done simultaneously without clogging log
 >>>>>>> epictestbranch
