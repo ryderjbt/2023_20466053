@@ -1,2 +1,7 @@
-Priority: master
+<<<<<<< HEAD
+conflict resolution
 Hello 
+=======
+conflict resolution
+Hello 
+>>>>>>> epictestbranch
