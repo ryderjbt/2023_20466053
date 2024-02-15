@@ -1,0 +1,54 @@
+[33mcommit d9e81155f6a8624e337335f64bfbe9cf405eedf5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Ryder Taylor <eeyrt5@nottingham.ac.uk>
+Date:   Tue Feb 13 16:55:22 2024 +0000
+
+    copy and paste merge
+
+[33mcommit 5496ab9fd3d79615c4bf5c75df8946f1a9efb7ed[m
+Merge: 83a7d2e be640d3
+Author: Ryder Taylor <eeyrt5@nottingham.ac.uk>
+Date:   Tue Feb 13 16:54:11 2024 +0000
+
+    Cheat sheet needs to match
+
+[33mcommit be640d32eb83a3aec950f7abc3dcae8b7e5e36a0[m[33m ([m[1;32mepictestbranch[m[33m)[m
+Author: Ryder Taylor <eeyrt5@nottingham.ac.uk>
+Date:   Tue Feb 13 16:52:08 2024 +0000
+
+    FINAL CHAET SHEET COMMIT
+
+[33mcommit 83a7d2e70894b8b1f9064bcb11aaa1aa5691cbe8[m
+Author: Ryder Taylor <eeyrt5@nottingham.ac.uk>
+Date:   Tue Feb 13 16:49:05 2024 +0000
+
+    cheat sheet pls fix
+
+[33mcommit 475c0c4c79720d2bfc937d6e9ee195269dc9587b[m
+Author: Ryder Taylor <eeyrt5@nottingham.ac.uk>
+Date:   Tue Feb 13 16:40:01 2024 +0000
+
+    date and time2
+
+[33mcommit ce3792a108a6d0f3dec43a694fcd8f53b430a782[m
+Author: Ryder Taylor <eeyrt5@nottingham.ac.uk>
+Date:   Tue Feb 13 15:29:13 2024 +0000
+
+    Cheat sheet
+
+[33mcommit fea70627f401313c0300f92bddd1d4936a825807[m
+Author: Ryder Taylor <eeyrt5@nottingham.ac.uk>
+Date:   Tue Feb 13 14:43:27 2024 +0000
+
+    cheat sheet commit
+
+[33mcommit a7db2210cfb0dd104a2283db63ed355acea45217[m
+Author: Ryder Taylor <eeyrt5@nottingham.ac.uk>
+Date:   Mon Feb 12 16:09:40 2024 +0000
+
+    date and time
+
+[33mcommit bdd2f4b3034b981c282c32cf99e93b365c9cf05c[m
+Author: Ryder Taylor <eeyrt5@nottingham.ac.uk>
+Date:   Mon Feb 12 15:29:02 2024 +0000
+
+    Initial Commit
