@@ -4,7 +4,7 @@ name: doxygen-deploy
 on:
   push:
     branches: [master]	# note this needs to be set to your default branch
-			# name (this might be "main" rather than "master"
+                      # name (this might be "main" rather tha "master")
 
 
 jobs:
