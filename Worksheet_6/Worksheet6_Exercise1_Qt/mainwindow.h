@@ -16,6 +16,9 @@ public slots:
     void handleButton1();
     void handleButton2();
 
+signals:
+    void statusUpdateMessage( const QString & message, int timeout );
+
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
