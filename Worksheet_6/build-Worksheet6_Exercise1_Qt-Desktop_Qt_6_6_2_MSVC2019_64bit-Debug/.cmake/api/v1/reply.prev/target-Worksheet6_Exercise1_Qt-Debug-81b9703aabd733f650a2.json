@@ -51,7 +51,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 31,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 74,
+				"line" : 76,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 57,
+				"line" : 59,
 				"parent" : 0
 			},
 			{
@@ -370,7 +370,8 @@
 				1,
 				2,
 				5,
-				7
+				7,
+				13
 			]
 		}
 	],
@@ -490,7 +491,8 @@
 				1,
 				2,
 				5,
-				7
+				7,
+				13
 			]
 		},
 		{
@@ -500,7 +502,7 @@
 				3,
 				6,
 				8,
-				10
+				11
 			]
 		},
 		{
@@ -509,14 +511,16 @@
 			[
 				4,
 				9,
-				11
+				10,
+				12
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				12
+				14,
+				15
 			]
 		}
 	],
@@ -575,6 +579,11 @@
 		},
 		{
 			"backtrace" : 4,
+			"path" : "icons.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
 			"path" : "Worksheet6_Exercise1_Qt_en_GB.ts",
 			"sourceGroupIndex" : 2
 		},
@@ -592,8 +601,21 @@
 		},
 		{
 			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/Ryder/2023_20466053/Worksheet_6/build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/Worksheet6_Exercise1_Qt_autogen/EWIEGA46WW/qrc_icons.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "C:/Users/Ryder/2023_20466053/Worksheet_6/build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/Worksheet6_Exercise1_Qt_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/Ryder/2023_20466053/Worksheet_6/build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/Worksheet6_Exercise1_Qt_autogen/EWIEGA46WW/qrc_icons.cpp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "C:/Users/Ryder/2023_20466053/Worksheet_6/build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/Worksheet6_Exercise1_Qt_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Ryder/2023_20466053/Worksheet_6/build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Ryder/2023_20466053/Worksheet_6/build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt",
+	"INCLUDE_DIR" : "C:/Users/Ryder/2023_20466053/Worksheet_6/build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/Worksheet6_Exercise1_Qt_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/Icons/filesave.png",
+		"C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/Icons/help.png",
+		"C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/Icons/print.png",
+		"C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/Icons/startVR.png",
+		"C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/Icons/fileopen.png",
+		"C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/Icons/stopVR.png"
+	],
+	"LOCK_FILE" : "C:/Users/Ryder/2023_20466053/Worksheet_6/build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/CMakeFiles/Worksheet6_Exercise1_Qt_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "icons" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_icons.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.6.2/msvc2019_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/Ryder/2023_20466053/Worksheet_6/build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/CMakeFiles/Worksheet6_Exercise1_Qt_autogen.dir/AutoRcc_icons_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/icons.qrc",
+	"VERBOSITY" : 0
+}

@@ -274,7 +274,8 @@
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake",
 		"C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeParseArguments.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake"
+		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
+		"C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/icons.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt",
 	"DEP_FILE" : "C:/Users/Ryder/2023_20466053/Worksheet_6/build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/Worksheet6_Exercise1_Qt_autogen/deps",

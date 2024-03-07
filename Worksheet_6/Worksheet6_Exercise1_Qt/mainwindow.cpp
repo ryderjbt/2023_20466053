@@ -78,5 +78,11 @@ void MainWindow::on_actionOpen_File_triggered()
 {
     // Checking action works
     emit statusUpdateMessage( QString( "Open file action triggered" ),0 );
+    QString fileName = QFileDialog::getOpenFileName(
+        this,
+        tr("Open File"),
+        "C:\\",
+        tr("STL Files(*.stl);;Text Files(*.txt)") );
+    emit statusUpdateMessage( QString(fileName),0 );
 }
 

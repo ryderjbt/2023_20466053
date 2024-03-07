@@ -23,6 +23,7 @@ set(PROJECT_SOURCES
 		ModelPart.h
 		ModelPartList.cpp
 		ModelPartList.h
+		icons.qrc
 		
         ${TS_FILES}
 )
@@ -31,6 +32,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Worksheet6_Exercise1_Qt
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        icons.qrc
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Worksheet6_Exercise1_Qt APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
