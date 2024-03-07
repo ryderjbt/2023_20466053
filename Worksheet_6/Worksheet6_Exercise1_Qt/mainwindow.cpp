@@ -11,6 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect( ui->pushButton_2, &QPushButton::released, this, &MainWindow::handleButton2);
     connect( ui->treeView, &QTreeView::clicked, this, &MainWindow::handleTreeClicked);
     connect( this, &MainWindow::statusUpdateMessage, ui->statusbar, &QStatusBar::showMessage );
+    ui->treeView->addAction(ui->actionItem_Options);
 
     /* Create / allocate the ModelList */
     this -> partList = new ModelPartList("PartsList");
@@ -74,8 +75,7 @@ void MainWindow::handleTreeClicked() {
     emit statusUpdateMessage(QString("The seledcted item is: ")+text, 0);
 }
 
-void MainWindow::on_actionOpen_File_triggered()
-{
+void MainWindow::on_actionOpen_File_triggered(){
     // Checking action works
     emit statusUpdateMessage( QString( "Open file action triggered" ),0 );
     QString fileName = QFileDialog::getOpenFileName(
@@ -86,3 +86,13 @@ void MainWindow::on_actionOpen_File_triggered()
     emit statusUpdateMessage( QString(fileName),0 );
 }
 
+void MainWindow::on_actionItem_Options_triggered() {
+    OptionDialog dialog(this);
+
+    if(dialog.exec() == QDialog::Accepted) {
+        emit statusUpdateMessage(QString("Dialog accepted "),0);
+    } else {
+        emit statusUpdateMessage(QString("Dialog Rejected "),0);
+    }
+
+}

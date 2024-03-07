@@ -45,6 +45,7 @@ set(OLD_GLOB
   "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/ModelPartList.cpp"
   "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/main.cpp"
   "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/mainwindow.cpp"
+  "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/optiondialog.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -66,6 +67,7 @@ set(OLD_GLOB
   "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/ModelPart.h"
   "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/ModelPartList.h"
   "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/mainwindow.h"
+  "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/optiondialog.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -167,6 +169,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/*.ui")
 set(OLD_GLOB
   "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/mainwindow.ui"
+  "C:/Users/Ryder/2023_20466053/Worksheet_6/Worksheet6_Exercise1_Qt/optiondialog.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
