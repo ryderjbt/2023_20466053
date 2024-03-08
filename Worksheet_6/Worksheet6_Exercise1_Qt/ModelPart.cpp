@@ -124,10 +124,11 @@ unsigned char ModelPart::getColourB() {
 }
 
 
-void ModelPart::setVisible(bool isVisible) {
+void ModelPart::setVisible(int column, bool isVisible) {
     /* This is a placeholder function that will be used in the next worksheet */
     
     /* As the name suggests ... */
+    set(1, isVisible);
 }
 
 bool ModelPart::visible() {

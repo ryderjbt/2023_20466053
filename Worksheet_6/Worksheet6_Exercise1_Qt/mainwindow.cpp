@@ -72,7 +72,7 @@ void MainWindow::handleTreeClicked() {
     /* In this case, we will retrieve the name string from the internal QVariant data array */
     QString text = selectedPart->data(0).toString();
 
-    emit statusUpdateMessage(QString("The seledcted item is: ")+text, 0);
+    emit statusUpdateMessage(QString("The selected item is: ")+text, 0);
 }
 
 void MainWindow::on_actionOpen_File_triggered(){
@@ -87,10 +87,30 @@ void MainWindow::on_actionOpen_File_triggered(){
 }
 
 void MainWindow::on_actionItem_Options_triggered() {
+    /* Get the index of the selected item */
+    QModelIndex index = ui->treeView->currentIndex();
+
+    /* Get a pointer to the item from the index */
+    ModelPart *selectedPart = static_cast<ModelPart*>(index.internalPointer());
+
+    /* In this case, we will retrieve the name string from the internal QVariant data array */
+    QString text = selectedPart->data(0).toString();
+
+    emit statusUpdateMessage(QString("The selected item is: ")+text, 0);
+
     OptionDialog dialog(this);
+
+    dialog.setName( selectedPart->data(0).toString() );
+    dialog.setR( selectedPart->getColourR() );
+    dialog.setG( selectedPart->getColourG() );
+    dialog.setB( selectedPart->getColourB() );
+    dialog.setVisibleDialog(selectedPart->data(1).toBool() );
 
     if(dialog.exec() == QDialog::Accepted) {
         emit statusUpdateMessage(QString("Dialog accepted "),0);
+        selectedPart->set( 0, dialog.getName() );
+        selectedPart->setColour( dialog.getR(), dialog.getG(), dialog.getG() );
+        selectedPart->setVisible(1, dialog.getVisible());
     } else {
         emit statusUpdateMessage(QString("Dialog Rejected "),0);
     }
