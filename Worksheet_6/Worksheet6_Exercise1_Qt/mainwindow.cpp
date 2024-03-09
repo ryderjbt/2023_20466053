@@ -101,15 +101,13 @@ void MainWindow::on_actionItem_Options_triggered() {
     OptionDialog dialog(this);
 
     dialog.setName( selectedPart->data(0).toString() );
-    dialog.setR( selectedPart->getColourR() );
-    dialog.setG( selectedPart->getColourG() );
-    dialog.setB( selectedPart->getColourB() );
-    dialog.setVisibleDialog(selectedPart->data(1).toBool() );
+    dialog.setRGB( selectedPart->getColourR(), selectedPart->getColourG(), selectedPart->getColourB() );
+    dialog.setVisibleDialog( selectedPart->data(1).toBool() );
 
     if(dialog.exec() == QDialog::Accepted) {
         emit statusUpdateMessage(QString("Dialog accepted "),0);
         selectedPart->set( 0, dialog.getName() );
-        selectedPart->setColour( dialog.getR(), dialog.getG(), dialog.getG() );
+        selectedPart->setColour( dialog.getR(), dialog.getG(), dialog.getB() );
         selectedPart->setVisible(1, dialog.getVisible());
     } else {
         emit statusUpdateMessage(QString("Dialog Rejected "),0);

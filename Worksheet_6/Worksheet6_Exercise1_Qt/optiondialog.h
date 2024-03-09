@@ -3,7 +3,6 @@
 
 #include <QDialog>
 
-
 namespace Ui {
 class OptionDialog;
 }
@@ -17,12 +16,16 @@ public:
     ~OptionDialog();
     void setName( QString );
     QString getName();
-    void setR( unsigned int );
+    void setRGB( unsigned int, unsigned int, unsigned int);
+    void changeR();
     unsigned int getR();
-    void setG( unsigned int );
+    QString r;
+    void changeG();
     unsigned int getG();
-    void setB( unsigned int );
+    QString g;
+    void changeB();
     unsigned int getB();
+    QString b;
     void setVisibleDialog( bool );
     bool getVisible();
 
