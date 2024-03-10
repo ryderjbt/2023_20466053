@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\ModelPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\ModelPartList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\optiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\EWIEGA46WW\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\ModelPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\ModelPartList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\include_Debug\ui_optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\include_Release\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\include_Release\ui_optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\include_MinSizeRel\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\include_MinSizeRel\ui_optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\include_RelWithDebInfo\ui_optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\CMakeFiles\98ab7385e324e820a3efcbb51529c095\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\CMakeFiles\55d70896d262eadad20de0e5a1c057ea\qrc_icons.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\mainwindow.ui" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\icons.qrc" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\optiondialog.ui" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\VTKproject_en_GB.ts" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\autouic_Debug.stamp" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\autouic_Release.stamp" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\VTKproject_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DB157370-8112-3A70-92D1-061BC4C1CD2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6ADF796C-A166-3AF4-AD6E-0C48970ACE87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{030951F6-5A43-3AA7-9A80-213A9448BB56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

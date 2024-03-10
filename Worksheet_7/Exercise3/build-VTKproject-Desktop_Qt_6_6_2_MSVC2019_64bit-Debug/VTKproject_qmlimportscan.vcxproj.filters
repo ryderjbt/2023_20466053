@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\CMakeFiles\5f08e514b3a080382f0f5e3a09f3dc8b\Qt6_QmlPlugins_Imports_VTKproject.cmake.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\CMakeFiles\82961db29f8ccaec8d83a4ddaf3314d3\VTKproject_qmlimportscan.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\VTKproject\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_7\Exercise3\build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\CMakeFiles\VTKproject_qmlimportscan" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DB157370-8112-3A70-92D1-061BC4C1CD2D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

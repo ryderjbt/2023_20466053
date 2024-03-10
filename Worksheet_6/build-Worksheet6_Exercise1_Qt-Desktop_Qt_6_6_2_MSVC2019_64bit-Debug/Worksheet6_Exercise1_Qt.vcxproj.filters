@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\ModelPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\ModelPartList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\optiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\EWIEGA46WW\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\ModelPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\ModelPartList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\include_Debug\ui_optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\include_Release\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\include_Release\ui_optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\include_MinSizeRel\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\include_MinSizeRel\ui_optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\include_RelWithDebInfo\ui_optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\CMakeFiles\ea1222272ac2850b2ebe3b1214e52cff\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\CMakeFiles\0cf917d5759bb48da48d81a8ab663b46\qrc_icons.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\mainwindow.ui" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\icons.qrc" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\optiondialog.ui" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_6\Worksheet6_Exercise1_Qt\Worksheet6_Exercise1_Qt_en_GB.ts" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\autouic_Debug.stamp" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\autouic_Release.stamp" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="C:\Users\Ryder\2023_20466053\Worksheet_6\build-Worksheet6_Exercise1_Qt-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug\Worksheet6_Exercise1_Qt_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0F99D416-8FB8-3807-BBAF-3975A3E8C41C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6BF54C2D-F8E9-32E5-AFD9-9736518BBED6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{99AAE0C7-8FD6-38A1-A9B3-61E4F04ECE99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
