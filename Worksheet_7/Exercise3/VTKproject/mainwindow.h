@@ -35,6 +35,9 @@ public:
 private slots:
     void on_actionOpen_File_triggered();
     void on_actionItem_Options_triggered();
+    void updateRenderer();
+    void updateRenderFromTree(const QModelIndex&);
+    void updateCamera();
 
 private:
     Ui::MainWindow *ui;

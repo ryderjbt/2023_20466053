@@ -8,21 +8,31 @@
   */
 
 #include "ModelPart.h"
+#include <vtkSTLReader.h>
 
 
 /* Commented out for now, will be uncommented later when you have
  * installed the VTK library
  */
-//#include <vtkSmartPointer.h>
-//#include <vtkDataSetMapper.h>
+#include <vtkSmartPointer.h>
+#include <vtkDataSetMapper.h>
+#include <vtkActor.h>
+#include <vtkNamedColors.h>
+#include <vtkNew.h>
+#include <vtkPolyDataMapper.h>
+#include <vtkProperty.h>
+#include <vtkRenderWindow.h>
+#include <vtkRenderWindowInteractor.h>
+#include <vtkRenderer.h>
+#include <vtkSTLReader.h>
 
 
 
 ModelPart::ModelPart(const QList<QVariant>& data, ModelPart* parent )
     : m_itemData(data), m_parentItem(parent) {
-    ColourR = 0;
-    ColourG = 0;
-    ColourB = 0;
+    ColourR = 50;
+    ColourG = 100;
+    ColourB = 10;
     /* You probably want to give the item a default colour */
 }
 
@@ -98,69 +108,75 @@ int ModelPart::row() const {
 }
 
 void ModelPart::setColour(const unsigned char R, const unsigned char G, const unsigned char B) {
-    /* This is a placeholder function that will be used in the next worksheet */
     ColourR = R;
     ColourG = G;
     ColourB = B;
-    /* As the name suggests ... */
+
+    actor = getActor();
+    vtkColor3<unsigned char> color(getColourR(), getColourG(), getColourB());
+    double r = color.GetRed() / 255.0;
+    double g = color.GetGreen() / 255.0;
+    double b = color.GetBlue() / 255.0;
+    actor->GetProperty()->SetColor(r, g, b);
 }
 
 unsigned char ModelPart::getColourR() {
-    /* This is a placeholder function that will be used in the next worksheet */
-    
-    /* As the name suggests ... */
-    return ColourR;   // needs updating
+    return ColourR;
 }
 
 unsigned char ModelPart::getColourG() {
-    /* This is a placeholder function that will be used in the next worksheet */
-    
-    /* As the name suggests ... */
-    return ColourG;   // needs updating
+    return ColourG;
 }
 
 
 unsigned char ModelPart::getColourB() {
-    /* This is a placeholder function that will be used in the next worksheet */
-    
-    /* As the name suggests ... */
-    return ColourB;   // needs updating
+    return ColourB;
 }
 
 
 void ModelPart::setVisible(int column, bool isVisible) {
-    /* This is a placeholder function that will be used in the next worksheet */
-    
-    /* As the name suggests ... */
     set(1, isVisible);
+    actor = getActor();
+    if(isVisible == true){
+        actor->SetVisibility(1);
+    } else {
+        actor->SetVisibility(0);
+    }
 }
 
 bool ModelPart::visible() {
-    /* This is a placeholder function that will be used in the next worksheet */
-    
-    /* As the name suggests ... */
     return false;
 }
 
 void ModelPart::loadSTL( QString fileName ) {
-    /* This is a placeholder function that will be used in the next worksheet */
-    
     /* 1. Use the vtkSTLReader class to load the STL file 
      *     https://vtk.org/doc/nightly/html/classvtkSTLReader.html
      */
+    file = vtkSmartPointer<vtkSTLReader>::New();
+    std::string stdfileName = fileName.toStdString();
+    file->SetFileName(stdfileName.c_str());
+    file->Update();
 
     /* 2. Initialise the part's vtkMapper */
-    
+    mapper = vtkSmartPointer<vtkPolyDataMapper>::New();
+    mapper->SetInputConnection(file->GetOutputPort());
+
     /* 3. Initialise the part's vtkActor and link to the mapper */
+    actor = vtkSmartPointer<vtkActor>::New();
+    vtkColor3<unsigned char> color(getColourR(), getColourG(), getColourB());
+    double r = color.GetRed() / 255.0;
+    double g = color.GetGreen() / 255.0;
+    double b = color.GetBlue() / 255.0;
+    actor->SetMapper(mapper);
+    actor->GetProperty()->SetDiffuse(0.8);
+    actor->GetProperty()->SetColor(r, g, b);
+    actor->GetProperty()->SetSpecular(0.3);
+    actor->GetProperty()->SetSpecularPower(60.0);
 }
 
-//vtkSmartPointer<vtkActor> ModelPart::getActor() {
-    /* This is a placeholder function that will be used in the next worksheet */
-    
-    /* Needs to return a smart pointer to the vtkActor to allow
-     * part to be rendered.
-     */
-//}
+vtkSmartPointer<vtkActor> ModelPart::getActor() {
+    return actor;
+}
 
 //vtkActor* ModelPart::getNewActor() {
     /* This is a placeholder function that will be used in the next worksheet.

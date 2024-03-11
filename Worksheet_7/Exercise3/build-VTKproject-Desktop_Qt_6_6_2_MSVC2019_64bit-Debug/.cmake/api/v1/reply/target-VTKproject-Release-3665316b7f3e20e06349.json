@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MinSizeRel/VTKproject.exe"
+			"path" : "Release/VTKproject.exe"
 		},
 		{
-			"path" : "MinSizeRel/VTKproject.pdb"
+			"path" : "Release/VTKproject.pdb"
 		}
 	],
 	"backtrace" : 4,
@@ -527,7 +527,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17"
 				},
 				{
 					"backtrace" : 56,
@@ -649,7 +649,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/VTKproject_autogen/include_MinSizeRel"
+					"path" : "C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/VTKproject_autogen/include_Release"
 				},
 				{
 					"backtrace" : 56,
@@ -794,11 +794,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 83,
-			"id" : "VTKproject_qmlimportscan::@6890427a1f51a3e7e1df"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"backtrace" : 83,
+			"id" : "VTKproject_qmlimportscan::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "VTKproject::@6890427a1f51a3e7e1df",
@@ -821,7 +821,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -1795,7 +1795,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/VTKproject_autogen/mocs_compilation_MinSizeRel.cpp",
+			"path" : "C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/VTKproject_autogen/mocs_compilation_Release.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -1871,19 +1871,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/VTKproject_autogen/include_MinSizeRel/ui_mainwindow.h",
+			"path" : "C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/VTKproject_autogen/include_Release/ui_mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/VTKproject_autogen/include_MinSizeRel/ui_optiondialog.h",
+			"path" : "C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/VTKproject_autogen/include_Release/ui_optiondialog.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/VTKproject_autogen/autouic_MinSizeRel.stamp",
+			"path" : "C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/VTKproject_autogen/autouic_Release.stamp",
 			"sourceGroupIndex" : 2
 		},
 		{
