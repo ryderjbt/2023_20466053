@@ -1,113 +1,55 @@
 C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/VTKproject_autogen/include_Debug/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/VTKproject/mainwindow.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkABI.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkABINamespace.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkAOSDataArrayTemplate.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkAbstractArray.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkAbstractCellLinks.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkAbstractMapper.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkAbstractMapper3D.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkActor.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkActorCollection.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkAlgorithm.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkAssume.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkBoundingBox.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkBuffer.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkBuild.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCamera.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCell.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCellArray.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCellLinks.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCellType.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCellTypes.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCollection.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkColor.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCommand.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCommonColorModule.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCommonCoreModule.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCommonDataModelModule.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCommonExecutionModelModule.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCompiler.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkCylinderSource.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDataArray.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDataArrayAccessor.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDataArrayMeta.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDataArrayRange.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDataArrayTupleRange_AOS.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDataArrayTupleRange_Generic.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDataArrayValueRange_AOS.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDataArrayValueRange_Generic.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDataObject.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDataSet.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDebugLeaksManager.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDebugRangeIterators.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkDeprecation.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkEmptyCell.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkEventData.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkFeatures.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkFiltersCoreModule.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkFiltersSourcesModule.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkGenericCell.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkGenericDataArray.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkGenericDataArray.txx \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkGenericDataArrayLookupHelper.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkGenericOpenGLRenderWindow.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkIOImageModule.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkIOStream.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkIdList.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkIdTypeArray.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkIndent.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkIntArray.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkMapper.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkMath.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkMathConfigure.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkMathPrivate.hxx \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkMatrixUtilities.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkMeta.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkNamedColors.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkNew.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkOStrStreamWrapper.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkOStreamWrapper.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkObject.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkObjectBase.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkObjectFactory.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkOpenGLRenderWindow.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkOptions.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkPlatform.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkPointSet.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkPoints.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkPolyData.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkPolyDataAlgorithm.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkPolyDataInternals.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkPolyDataMapper.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkProp.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkProp3D.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkPropCollection.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkProperty.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkRect.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkRenderWindow.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkRenderWindowInteractor.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkRenderer.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkRenderingCoreModule.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkRenderingHyperTreeGridModule.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkRenderingOpenGL2Module.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkRenderingUIModule.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkSelection.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkSetGet.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkSmartPointer.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkSmartPointerBase.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkStdString.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkStringArray.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkSystemIncludes.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkTimeStamp.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkTuple.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkType.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkTypeInt32Array.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkTypeInt64Array.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkTypeList.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkTypeList.txx \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkTypeListMacros.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkTypeTraits.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkUnsignedCharArray.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkVTK_USE_SCALED_SOA_ARRAYS.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkVariant.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkVariantCast.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkVariantInlineOperators.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkVector.h \
-  C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkVersionMacros.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkViewport.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkVolume.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.3/vtkVolumeCollection.h \

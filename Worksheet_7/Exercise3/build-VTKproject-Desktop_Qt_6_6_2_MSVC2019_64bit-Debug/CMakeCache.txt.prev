@@ -316,7 +316,7 @@ Qt6ZlibPrivate_DIR:PATH=C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6ZlibPrivate
 Qt6_DIR:PATH=C:/Qt/6.6.2/msvc2019_64/lib/cmake/Qt6
 
 //The directory containing a CMake configuration file for VTK.
-VTK_DIR:PATH=C:/VTK/VTK9.3.0_MSVC2022Build
+VTK_DIR:PATH=C:/Program Files (x86)/VTK/lib/cmake/vtk-9.3
 
 //Value Computed by CMake
 VTKproject_BINARY_DIR:STATIC=C:/Users/Ryder/2023_20466053/Worksheet_7/Exercise3/build-VTKproject-Desktop_Qt_6_6_2_MSVC2019_64bit-Debug

@@ -24,7 +24,7 @@
 #include <QtWidgets/QTreeView>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
-#include "qvtkopenglnativewidget.h"
+#include <qvtkopenglnativewidget.h>
 
 QT_BEGIN_NAMESPACE
 

@@ -2,47 +2,17 @@
 #include "./ui_mainwindow.h"
 #include <QMessageBox>
 
+#include <vtkGenericOpenGLRenderWindow.h>
+#include <vtkCylinderSource.h>
+#include <vtkPolyDataMapper.h>
+#include <vtkActor.h>
+#include <vtkProperty.h>
+#include <vtkCamera.h>
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
-    //Link a render window with the Qt widget
-    renderWindow = vtkSmartPointer<vtkGenericOpenGLRenderWindow>::New();
-    ui->vtkWidget->setRenderWindow(renderWindow);
-
-    //Add a renderer
-    renderer = vtkSmartPointer<vtkRenderer>::New();
-    renderWindow->AddRenderer(renderer);
-
-    /*Create an object and add to renderer (this will change later to display a CAD
-     * model)
-     * Will just copy and paster cylinder example from before
-     * This creates a polygonal cylinder model wirh eight circumfrential facets
-     * (i.e, in practice an octagonal prism).*/
-    vtkNew<vtkCylinderSource>cylinder;
-    cylinder->SetResolution(8);
-
-    /*The mapper is responsible for pushing the geometry into the graphics
-     * library. It may also do colour mapping, if scalars or other attributes are
-     * defined*/
-    vtkNew<vtkPolyDataMapper>cylinderMapper;
-    cylinderMapper->SetInputConnection( cylinder->GetOutputPort());
-
-    /*The actor is a grouping mechanism: besides the geometry (mapper), it
-     * also has a property, transformation matrix, and/or texture map.
-     * Here we set its colour and rotate it around the X and Y axes.*/
-    vtkNew<vtkActor>cylinderActor;
-    cylinderActor->SetMapper(cylinderMapper);
-    cylinderActor->GetProperty()->SetColor(1., 0., 0.35);
-    cylinderActor->RotateX(30.0);
-    cylinderActor->RotateY(-45.0);
-
-    //Reset Camera (Propably needs ro go in its own function that is called whenever model is changed)
-    renderer->ResetCamera();
-    renderer->GetActiveCamera()->Azimuth(30);
-    renderer->GetActiveCamera()->Elevation(30);
-    renderer->ResetCameraClippingRange();*/
-
     ui->setupUi(this);
     connect( ui->pushButton, &QPushButton::released, this, &MainWindow::handleButton1);
     connect( ui->pushButton_2, &QPushButton::released, this, &MainWindow::handleButton2);
@@ -84,6 +54,47 @@ MainWindow::MainWindow(QWidget *parent)
             childItem->appendChild(childChildItem);
         }
     }
+
+    //Link a render window with the Qt widget
+    renderWindow = vtkSmartPointer<vtkGenericOpenGLRenderWindow>::New();
+    ui->vtkWidget->setRenderWindow(renderWindow);
+
+    //Add a renderer
+    renderer = vtkSmartPointer<vtkRenderer>::New();
+    renderWindow->AddRenderer(renderer);
+
+    /*Create an object and add to renderer (this will change later to display a CAD
+     * model)
+     * Will just copy and paster cylinder example from before
+     * This creates a polygonal cylinder model wirh eight circumfrential facets
+     * (i.e, in practice an octagonal prism).*/
+    vtkNew<vtkCylinderSource>cylinder;
+    cylinder->SetResolution(8);
+
+    /*The mapper is responsible for pushing the geometry into the graphics
+     * library. It may also do colour mapping, if scalars or other attributes are
+     * defined*/
+    vtkNew<vtkPolyDataMapper>cylinderMapper;
+    cylinderMapper->SetInputConnection( cylinder->GetOutputPort());
+
+    /*The actor is a grouping mechanism: besides the geometry (mapper), it
+     * also has a property, transformation matrix, and/or texture map.
+     * Here we set its colour and rotate it around the X and Y axes.*/
+    vtkNew<vtkActor>cylinderActor;
+    cylinderActor->SetMapper(cylinderMapper);
+    cylinderActor->GetProperty()->SetColor(1., 0., 0.35);
+    cylinderActor->RotateX(30.0);
+    cylinderActor->RotateY(-45.0);
+
+    // Add the actor to the renderer
+    renderer->AddActor(cylinderActor);
+
+    //Reset Camera (Propably needs ro go in its own function that is called whenever model is changed)
+    renderer->ResetCamera();
+    renderer->GetActiveCamera()->Azimuth(30);
+    renderer->GetActiveCamera()->Elevation(30);
+    renderer->ResetCameraClippingRange();
+
 }
 
 MainWindow::~MainWindow()

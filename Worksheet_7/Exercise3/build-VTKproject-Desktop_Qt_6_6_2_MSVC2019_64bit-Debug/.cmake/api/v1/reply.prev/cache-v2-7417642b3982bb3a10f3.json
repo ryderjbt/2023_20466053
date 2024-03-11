@@ -6843,7 +6843,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/VTK/VTK9.3.0_MSVC2022Build"
+			"value" : "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.3"
 		},
 		{
 			"name" : "VTK_MPI_NUMPROCS",

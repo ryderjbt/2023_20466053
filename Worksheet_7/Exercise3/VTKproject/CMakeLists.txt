@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
 
-find_package(VTK REQUIRED)
+find_package( VTK REQUIRED )
 
 if (NOT VTK_FOUND)
   message(FATAL_ERROR "Unable to find the VTK build folder.")
@@ -93,7 +93,7 @@ if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(VTKproject)
 endif()
 
-add_custom_target(VRBindings)
-add_custom_command(TARGET VRBindings PRE_BUILD
+add_custom_target(  VRBindings )
+add_custom_command( TARGET VRBindings PRE_BUILD
 COMMAND ${CMAKE_COMMAND} -E
-				copy_directory ${CMAKE_SOURCE_DIR}/vrbindings ${CMAKE_BINARY_DIR}/ )
+            copy_directory ${CMAKE_SOURCE_DIR}/vrbindings ${CMAKE_BINARY_DIR}/ )
