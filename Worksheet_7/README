@@ -1,0 +1,10 @@
+
+All exercises complete
+
+Renders all files correctly
+
+All files loaded can have their item names, colours, and visibility altered and this will be reflected by the rendered versions in the GUI.
+
+If a TopLevel's visibility is set to false it will return an error for nullptr as they are not directly related to any actors, I plan to have the function recursively loop through all of the children related to the TopLevel via the treeview and alter their options to match those of the TopLevel if changed but this is not currently implemented and the program just outputs a nullptr exception error.
+
+I do not know why currently but visual studio must be launched in administrator mode for the project to build and run correctly. As long as this is done there are no errors.
