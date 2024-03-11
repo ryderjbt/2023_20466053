@@ -137,10 +137,16 @@ unsigned char ModelPart::getColourB() {
 void ModelPart::setVisible(int column, bool isVisible) {
     set(1, isVisible);
     actor = getActor();
-    if(isVisible == true){
-        actor->SetVisibility(1);
+    //Change in future to loop trhough all children and set them to false or true if toplevel (nullptr) visibility is edited
+    if (actor != nullptr) {
+        if(isVisible == true){
+            actor->SetVisibility(1);
+        } else {
+            actor->SetVisibility(0);
+        }
     } else {
-        actor->SetVisibility(0);
+        // Handle the case where actor is nullptr, if appropriate
+        throw std::runtime_error("Actor is null.");
     }
 }
 

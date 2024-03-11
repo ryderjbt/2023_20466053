@@ -174,7 +174,9 @@ void MainWindow::on_actionItem_Options_triggered() {
 
 void MainWindow::updateRenderer() {
     renderer->RemoveAllViewProps();
-    updateRenderFromTree(partList->index(0, 0, QModelIndex() ) );
+    for(int i = 0; i < 3; i++){
+        updateRenderFromTree(partList->index(i, 0, QModelIndex() ) );
+    }
     renderer->Render();
     updateCamera();
 }
